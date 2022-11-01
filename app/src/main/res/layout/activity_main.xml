@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/Widget.AppCompat.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:padding="50dp"
+        android:text="Movie \nStore"
+        android:textColor="#9076D6"
+        android:textColorHighlight="#2C52B3"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/re_id"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="298dp"
+        android:hint="id를 입력하세요"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/re_password"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="370dp"
+        android:hint="@string/registerpassword"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="135dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="300dp"
+        android:text="@string/button1"
+        app:cornerRadius="13dp"/>
+
+    <Button
+        android:id="@+id/go_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="450dp"
+        android:text="@string/btn_reg"
+        android:textColor="#050505"
+        app:backgroundTint="@color/white"
+        app:cornerRadius="13dp"/>
+
+    <Button
+        android:id="@+id/no_id_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="450dp"
+        android:text="@string/no_id"
+        app:cornerRadius="13dp"/>
+
+</RelativeLayout>

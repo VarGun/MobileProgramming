@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="textView1">Welcome</string>
+    <string name="button1">Login</string>
+    <string name="btn_reg">회원가입</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="no_id" >비회원으로 이용하기</string>
+
+
+    <string name="registerid">이메일을 입력하세요</string>
+    <string name="registerpassword">password 입력하세요</string>
+    <string name="registername" > 이름을 입력하세요</string>
+    <string name="registernumber"> 전화번호 입력</string>
+    <string name="registeraddress"> 주소 입력</string>
+    <string name="raido_yes_btn" > 개인 정보 사용 동의</string>
+    <string name="radio_no_btn" > 개인 정보 사용 비동의</string>
+    <string name="ckbtn_id"> 중복검사 </string>
+    <string name="ckbtn_id2"> 비밀번호확인 </string>
+    <string name="register">회원가입화면</string>
+    <string name="personal_agree">개인정보 사용동의 약관</string>
+
+
+    <string name="agree">확인</string>
+
+    <string name="button2">돌아가기</string>
+    <string name="title">제목</string>
+    <string name="content">내용내용내용내용내용</string>
+</resources>
